@@ -6,5 +6,6 @@ type Country struct {
 }
 
 type Name struct {
-	Common string `json:"common"`
+	Common   string `json:"common"`
+	Official string `json:"official"`
 }
